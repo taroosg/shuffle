@@ -40,6 +40,7 @@ export const Buttons = () => {
       return () => clearInterval(id);
     }
   }, [isShuffled]);
+
   return (
     <div className={classes.root}>
       <ButtonGroup
