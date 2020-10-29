@@ -6,7 +6,6 @@ import { useAtom } from 'jotai';
 import { themeAtom } from '../App'
 import { textLinesAtom, shuffleArray } from '../pages/Shuffle';
 
-
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {

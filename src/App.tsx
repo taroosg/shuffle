@@ -6,10 +6,12 @@ import * as colors from "@material-ui/core/colors";
 import { atom, Provider } from 'jotai'
 
 const darkTheme = createMuiTheme({
+  typography: {
+    fontSize: 22,
+  },
   palette: {
     type: 'dark',
     primary: {
-      // main: '#A59ACA',
       main: '#f39800',
     },
     secondary: colors.orange,

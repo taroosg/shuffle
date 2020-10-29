@@ -11,10 +11,9 @@ const useStyles = makeStyles((theme: Theme) =>
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-
       '& .MuiTextField-root': {
         margin: theme.spacing(1),
-        width: '35ch',
+        width: '25ch',
       },
     },
   })
