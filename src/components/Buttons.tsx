@@ -32,10 +32,11 @@ export const Buttons = () => {
     const setShuffledArray = (array: string[]): void => {
       const newArray = [...shuffleArray(array)].filter(x => x !== '')
       setTextLines(newArray)
+      localStorage.setItem(window.location.href, JSON.stringify(newArray))
     }
 
     if (isShuffled) {
-      let id = setInterval(() => { setShuffledArray(textLines) }, 100);
+      let id = setInterval(() => { setShuffledArray(textLines) }, 50);
       return () => clearInterval(id);
     }
   }, [isShuffled]);
