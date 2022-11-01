@@ -1,7 +1,15 @@
 # Shuffle
 
+## DEMO
+
+[https://shuffle-lines.vercel.app/](https://shuffle-lines.vercel.app/)
+
 ## How to use??
 
-- Input names, teams, etc... to TextField.
-- Put start button to Shuffle them.
-- Put stop button to stop shuffle.
+- 並び替えたいものをテキストエリアに入力する．
+- スタートボタンでシャッフルを開始する．
+- ストップボタンでシャッフルを停止する．
+
+## バグ
+
+- 日本語だとうまくいかないので英数字で入力もしくはコピペ入力でやりましょう．
